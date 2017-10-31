@@ -1,0 +1,7 @@
+*.pyc
+__pycache__
+p36
+venv
+db.sqlite3
+.DS_Store
+resource.zip
