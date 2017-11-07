@@ -7,7 +7,7 @@ width, height = 640, 480
 screen = pygame.display.set_mode((width, height))
 
 # 3. 이미지를 가져온다.
-player = pygame.image.load("resources/images/dude.png")
+
 
 # 4. 계속 화면이 보이도록 한다.
 
@@ -16,7 +16,6 @@ while True:
     screen.fill((0,0,0))   # (R,G,B)
 
     # 6. 모든 요소들을 다시 그린다.
-    screen.blit(player, (100,100))
 
     # 7. 화면을 다시 그린다.
     pygame.display.flip()
