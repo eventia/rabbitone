@@ -26,5 +26,3 @@ while True:
             # 게임종료한다
             pygame.quit()
             exit(0)
-
-            
