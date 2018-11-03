@@ -79,8 +79,8 @@ while running:
     screen.blit(playerrot, playerpos1)
 
     # 6.2 - 화살 그리기
+    index=0
     for bullet in arrows:
-        index=0
         velx = math.cos(bullet[0])*10
         vely = math.sin(bullet[0])*10
         bullet[1] = bullet[1]+velx
